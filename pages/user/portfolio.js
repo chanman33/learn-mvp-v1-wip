@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '@/app/layout';
-import SunburstPortfolio from '../../components/SunburstChart';
+import SunburstChart from '../../components/SunburstChart';
 
 const Portfolio = () => {
     const [jsonData, setJsonData] = useState(null);
@@ -41,7 +41,7 @@ const Portfolio = () => {
                         width={144} // Desired size with correct aspect ratio
                         alt="Chandler Ward"
                     />
-                    <SunburstPortfolio />
+                    <SunburstChart />
                 </div>
 
                 <br></br>
