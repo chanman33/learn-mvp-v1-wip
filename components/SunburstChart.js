@@ -34,7 +34,7 @@ const SunburstChart = ({ data }) => {
         .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1))
 
       // Create the SVG container.
-      const svg = d3.create("svg")
+      const svg = d3.select(chartRef.current)
         .attr("viewBox", [-width / 2, -height / 2, width, width])
         .style("font", "10px sans-serif");
 
@@ -130,7 +130,11 @@ const SunburstChart = ({ data }) => {
   }, [data]);
 
   return (
-    <svg ref={chartRef}></svg>
+    <div style={{width: '900px', height: '900px'}}>
+      {/* TODO remove style= above after fix CSS */}
+      <svg ref={chartRef}></svg>
+    </div>
+    
   );
 };
 

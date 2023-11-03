@@ -12,9 +12,9 @@ const Portfolio = () => {
         // Fetch the JSON data from your file or API
         fetch('/data/data.json') // Replace with the correct path
             .then((response) => response.json())
-            .then((data) => {
-                setJsonData(data);
-                console.log('Fetched JSON data:', data); // Log the data
+            .then((responseData) => {
+                setJsonData(responseData); // from outer: jsonData = responseData;
+                console.log('Fetched JSON data:', responseData); // Log the data
             })
             .catch((error) => {
                 console.error('Error fetching data:', error);
@@ -41,7 +41,10 @@ const Portfolio = () => {
                         width={144} // Desired size with correct aspect ratio
                         alt="Chandler Ward"
                     />
-                    <SunburstChart />
+                    {/* if (jsonData has stuff) then render SunburstChart*/}
+                    {jsonData && (
+                        <SunburstChart data={jsonData} />
+                    )}
                 </div>
 
                 <br></br>
