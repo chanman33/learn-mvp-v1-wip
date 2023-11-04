@@ -2,19 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/* :root {
+  /* --foreground-rgb: 0, 0, 0; */
+  /* --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; 
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    /* --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; 
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -25,3 +25,30 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+header {
+  color:aquamarine;
+}
+
+/* CSS apply to Portfolio Page */
+.profileGrid {
+  background-color: pink;
+}
+.bioContainer{
+  background-color: blue;
+
+}
+.userProfilePicture {
+  border-radius: 50%;
+
+}
+.portfolioGrid {
+  background-color: white;
+}
+.portfolioDataGrid {
+  background-color:  aqua;
+}
+.license-certsGrid{
+  background-color: blueviolet;
+}
+

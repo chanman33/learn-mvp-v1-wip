@@ -7,8 +7,9 @@ const SunburstChart = ({ data }) => {
   useEffect(() => {
     if (data) {
       console.log('Fetched JSON data in component:', data); // Log the data
-      // Specify the chart’s dimensions.
-      const width = 928;
+      // Specify the chart’s dimensions. 
+      //*****Note, chart will eventually need to auto size based on amount of data and screen size.
+      const width = 1000;
       const height = width;
       const radius = width / 6;
 

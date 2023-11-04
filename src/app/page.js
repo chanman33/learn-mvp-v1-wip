@@ -1,19 +1,37 @@
-// import Navbar from './navbar'
+
+//Import global page structure elements
+import Header from '../../components/Header';
+import PrimarySearchAppBar from '../../components/AppBar';
+
+
+//Import components React, Material UI
 import Link from 'next/link';
+import Button from '@mui/material/Button';
+
+//Import Robot Google Fonts - default for Material UI 
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* <Navbar /> */}
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          This is the home page.
-        </p>
-        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-          <p>Click here to go to your <Link href="/user/portfolio">portfolio!</Link></p>
-        </div>
+    <main>
+      <div>
+        <Header />
+        {/* <PrimarySearchAppBar /> */}
+
+      </div>
+      <div>
+        <p>Chandler's portfolio:</p>
+        <Link href="/user/portfolio">
+          <Button >Click me</Button>
+        </Link>
       </div>
     </main>
+
   )
 }
