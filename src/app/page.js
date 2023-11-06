@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <main>
       <div>
-        <Header />
-        {/* <PrimarySearchAppBar /> */}
+        {/* <Header /> */}
+        <PrimarySearchAppBar />
 
       </div>
       <div>
