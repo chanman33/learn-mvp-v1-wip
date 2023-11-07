@@ -32,23 +32,25 @@ header {
 
 /* CSS apply to Portfolio Page */
 .profileGrid {
-  background-color: pink;
+  background-color: #F4F2EE;
+  padding-top: 20px;
+  
 }
 .bioContainer{
-  background-color: blue;
+  background-color: white;
+  border-radius: 1;
 
 }
 .userProfilePicture {
   border-radius: 50%;
-
+  padding: 10px;
 }
 .portfolioGrid {
   background-color: white;
+  justify-content: center;
 }
-.portfolioDataGrid {
-  background-color:  aqua;
-}
+
 .license-certsGrid{
-  background-color: blueviolet;
+  background-color: white;
 }
 
