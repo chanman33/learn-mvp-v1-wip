@@ -47,7 +47,7 @@ const Portfolio = () => {
                     <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
                         <Image
                             className="userProfilePicture"
-                            src="/images/profile.jpg" 
+                            src="/images/profile.jpg"
                             height={144}
                             width={144}
                             sx={{ mr: 2 }}
@@ -66,7 +66,7 @@ const Portfolio = () => {
                     <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start' }} >
                         <span>
                             <Image
-                                src="/images/brigham_young_university_logo.jpg" 
+                                src="/images/brigham_young_university_logo.jpg"
                                 height={48}
                                 width={48}
                             />
@@ -76,7 +76,7 @@ const Portfolio = () => {
                         </span>
                         <span>
                             <Image
-                                src="/images/bingham_high_school_logo.jpg" 
+                                src="/images/bingham_high_school_logo.jpg"
                                 height={48}
                                 width={48}
                             />
@@ -104,6 +104,7 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid xs={8} className='portfolioGrid'>
+                    <h1>Portfolio</h1>
                     <Box sx={{ display: 'flex', justifyContent: 'center' }}>
                         {/* if (jsonData has stuff) then render SunburstChart*/}
                         {jsonData && (
