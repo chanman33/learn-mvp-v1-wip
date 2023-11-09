@@ -1,0 +1,1360 @@
+{
+   "name": "Portfolio",
+   "children": [
+      {
+         "name": "Professional Studies",
+         "children": [
+            {
+               "name": "Business and Management",
+               "children": [
+                  {
+                     "name": "Business Administration",
+                     "value": 2500
+                  },
+                  {
+                     "name": "Entrepreneurship",
+                     "value": 3800
+                  },
+                  {
+                     "name": "Marketing",
+                     "value": 1500
+                  },
+                  {
+                     "name": "Finance",
+                     "value": 4300
+                  },
+                  {
+                     "name": "Human Resources",
+                     "value": 500
+                  },
+                  {
+                     "name": "International Business",
+                     "value": 800
+                  },
+                  {
+                     "name": "Operations Management",
+                     "value": 300
+                  },
+                  {
+                     "name": "Information Systems",
+                     "value": 1200
+                  }
+               ]
+            },
+            {
+               "name": "Education",
+               "children": [
+                  {
+                     "name": "Teacher Education",
+                     "value": 100
+                  },
+                  {
+                     "name": "Curriculum Development",
+                     "value": 300
+                  },
+                  {
+                     "name": "Educational Leadership and Administration",
+                     "value": 200
+                  },
+                  {
+                     "name": "Special Education",
+                     "value": 100
+                  },
+                  {
+                     "name": "Educational Technology",
+                     "value": 900
+                  },
+                  {
+                     "name": "Counselor Education",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Law",
+               "children": [
+                  {
+                     "name": "Corporate Law",
+                     "value": 800
+                  },
+                  {
+                     "name": "Tax Law",
+                     "value": 200
+                  },
+                  {
+                     "name": "Enviromental Law",
+                     "value": 100
+                  },
+                  {
+                     "name": "Health Law",
+                     "value": 200
+                  },
+                  {
+                     "name": "Intellectual Property Law",
+                     "value": 500
+                  },
+                  {
+                     "name": "International Law",
+                     "value": 300
+                  },
+                  {
+                     "name": "Labor Law",
+                     "value": 200
+                  },
+                  {
+                     "name": "Litigation Law",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Medicine & Nursing",
+               "children": [
+                  {
+                     "name": "General Medicine",
+                     "value": 200
+                  },
+                  {
+                     "name": "Specializations (e.g., Cardiology, Neurology, etc.)",
+                     "value": 100
+                  },
+                  {
+                     "name": "Nursing",
+                     "value": 200
+                  },
+                  {
+                     "name": "Dentistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Veterinary Medicine",
+                     "value": 100
+                  },
+                  {
+                     "name": "Pharmacy",
+                     "value": 200
+                  },
+                  {
+                     "name": "Public Health",
+                     "value": 300
+                  },
+                  {
+                     "name": "Medical Research",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Military & Defense",
+               "children": [
+                  {
+                     "name": "Military Science",
+                     "value": 100
+                  },
+                  {
+                     "name": "National Security Studies",
+                     "value": 100
+                  },
+                  {
+                     "name": "Operational Studies",
+                     "value": 100
+                  },
+                  {
+                     "name": "Peace and Conflict Studies",
+                     "value": 100
+                  },
+                  {
+                     "name": "Defense Economics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Military Logistics",
+                     "value": 100
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Social Sciences",
+         "children": [
+            {
+               "name": "Anthropology",
+               "children": [
+                  {
+                     "name": "Cultural Anthropology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Physical Anthropology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Archaeological Anthropology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Linguistic Anthropology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Social Anthropology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Archaeology",
+               "children": [
+                  {
+                     "name": "Prehistoric Archaeology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Historical Archaeology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Underwater Archaeology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Enviromental Archaeology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Enthnoarchaeology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Economics",
+               "children": [
+                  {
+                     "name": "Microeconomics",
+                     "value": 500
+                  },
+                  {
+                     "name": "Macroeconomics",
+                     "value": 700
+                  },
+                  {
+                     "name": "Econometrics",
+                     "value": 200
+                  },
+                  {
+                     "name": "Development Economics",
+                     "value": 300
+                  },
+                  {
+                     "name": "Behavioral Economics",
+                     "value": 600
+                  },
+                  {
+                     "name": "International Economics",
+                     "value": 400
+                  }
+               ]
+            },
+            {
+               "name": "Geography",
+               "children": [
+                  {
+                     "name": "Physical Geography",
+                     "value": 100
+                  },
+                  {
+                     "name": "Human Geography",
+                     "value": 100
+                  },
+                  {
+                     "name": "Geospacial Sciences",
+                     "value": 100
+                  },
+                  {
+                     "name": "Enviromental Management",
+                     "value": 100
+                  },
+                  {
+                     "name": "Cartography",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "History",
+               "children": [
+                  {
+                     "name": "Ancient History",
+                     "value": 100
+                  },
+                  {
+                     "name": "Medieval History",
+                     "value": 100
+                  },
+                  {
+                     "name": "Modern History",
+                     "value": 100
+                  },
+                  {
+                     "name": "Economic History",
+                     "value": 100
+                  },
+                  {
+                     "name": "Cultural History",
+                     "value": 100
+                  },
+                  {
+                     "name": "Social History",
+                     "value": 100
+                  },
+                  {
+                     "name": "History of Science",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Law",
+               "children": [
+                  {
+                     "name": "Constitutional Law",
+                     "value": 500
+                  },
+                  {
+                     "name": "Criminal Law",
+                     "value": 100
+                  },
+                  {
+                     "name": "Civil Law",
+                     "value": 100
+                  },
+                  {
+                     "name": "Property Law",
+                     "value": 300
+                  },
+                  {
+                     "name": "Contract Law",
+                     "value": 200
+                  },
+                  {
+                     "name": "Tort Law",
+                     "value": 200
+                  }
+               ]
+            },
+            {
+               "name": "Linguistics",
+               "children": [
+                  {
+                     "name": "Phonetics and Phonology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Syntax and Semantics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Pragmatics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Sociolinguistics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Psycholinguistics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Computational Linguistics",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Political Science",
+               "children": [
+                  {
+                     "name": "Political Theory",
+                     "value": 100
+                  },
+                  {
+                     "name": "Comparative Politics",
+                     "value": 100
+                  },
+                  {
+                     "name": "International Relations",
+                     "value": 100
+                  },
+                  {
+                     "name": "Public Administration",
+                     "value": 100
+                  },
+                  {
+                     "name": "Public Policy",
+                     "value": 100
+                  },
+                  {
+                     "name": "Political Economy",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Psychology",
+               "children": [
+                  {
+                     "name": "Clinical Psychology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Cognitive Psychology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Developmental Psychology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Social Psychology",
+                     "value": 300
+                  },
+                  {
+                     "name": "Experimental Psychology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Industrial-Organizational Psychology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Sociology",
+               "children": [
+                  {
+                     "name": "Social Theory",
+                     "value": 100
+                  },
+                  {
+                     "name": "Social Research",
+                     "value": 100
+                  },
+                  {
+                     "name": "Sociology of Health",
+                     "value": 100
+                  },
+                  {
+                     "name": "Sociology of Education",
+                     "value": 100
+                  },
+                  {
+                     "name": "Criminology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Urban and Rural Sociology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Education",
+               "children": [
+                  {
+                     "name": "Curriculum and Instruction",
+                     "value": 100
+                  },
+                  {
+                     "name": "Educational Leadership",
+                     "value": 100
+                  },
+                  {
+                     "name": "Educational Psychology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Special Education",
+                     "value": 100
+                  },
+                  {
+                     "name": "Distance Learning",
+                     "value": 100
+                  },
+                  {
+                     "name": "Adult Education",
+                     "value": 100
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Natural Sciences",
+         "children": [
+            {
+               "name": "Physics",
+               "children": [
+                  {
+                     "name": "Classical Mechanics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Thermodynamics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Electromagnetism",
+                     "value": 100
+                  },
+                  {
+                     "name": "Quantum Mechanics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Particle Physics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Relativity",
+                     "value": 100
+                  },
+                  {
+                     "name": "Astrophysics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Nuclear Physics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Condensed Matter Physics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Plasma Physics",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Chemistry",
+               "children": [
+                  {
+                     "name": "Organic Chemistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Inorganic Chemistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Analytical Chemistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Physical Chemistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Biochemistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Environmental Chemistry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Industrial Chemistry",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Biology",
+               "children": [
+                  {
+                     "name": "Botany",
+                     "value": 100
+                  },
+                  {
+                     "name": "Zoology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Genetics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Microbiology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Evolutionary Biology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Ecology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Bioinformatics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Molecular Biology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Physiology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Neurobiology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Earth Sciences",
+               "children": [
+                  {
+                     "name": "Geology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Meteorology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Oceanography",
+                     "value": 100
+                  },
+                  {
+                     "name": "Paleontology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Environmental Science",
+                     "value": 100
+                  },
+                  {
+                     "name": "Geophysics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Soil Science",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Astronomy",
+               "children": [
+                  {
+                     "name": "Observational Astronomy",
+                     "value": 100
+                  },
+                  {
+                     "name": "Theoretical Astronomy",
+                     "value": 100
+                  },
+                  {
+                     "name": "Cosmology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Planetary Science",
+                     "value": 100
+                  },
+                  {
+                     "name": "Space Exploration",
+                     "value": 100
+                  },
+                  {
+                     "name": "Astrobiology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Ecology",
+               "children": [
+                  {
+                     "name": "Population Ecology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Community Ecology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Ecosystem Ecology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Conservation Biology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Landscape Ecology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Restoration Ecology",
+                     "value": 100
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Formal Sciences",
+         "children": [
+            {
+               "name": "Mathematics",
+               "children": [
+                  {
+                     "name": "Algebra",
+                     "value": 500
+                  },
+                  {
+                     "name": "Geometry",
+                     "value": 300
+                  },
+                  {
+                     "name": "Calculus and Analysis",
+                     "value": 100
+                  },
+                  {
+                     "name": "Topology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Number Theory",
+                     "value": 100
+                  },
+                  {
+                     "name": "Applied Mathematics",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Logic",
+               "children": [
+                  {
+                     "name": "Symbolic Logic",
+                     "value": 100
+                  },
+                  {
+                     "name": "Philosophical Logic",
+                     "value": 100
+                  },
+                  {
+                     "name": "Mathematical Logic",
+                     "value": 100
+                  },
+                  {
+                     "name": "Computational Logic",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Statistics",
+               "children": [
+                  {
+                     "name": "Descriptive Statistics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Inferential Statistics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Applied Statistics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Probability Theory",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Computer Science",
+               "children": [
+                  {
+                     "name": "Theoretical Computer Science",
+                     "value": 100
+                  },
+                  {
+                     "name": "Algorithms and Data Structures",
+                     "value": 100
+                  },
+                  {
+                     "name": "Computer Systems and Networks",
+                     "value": 100
+                  },
+                  {
+                     "name": "Software Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Artificial Intelligence",
+                     "value": 100
+                  },
+                  {
+                     "name": "Human-Computer Interaction",
+                     "value": 100
+                  },
+                  {
+                     "name": "Computational Science",
+                     "value": 100
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Applied Sciences & Technology",
+         "children": [
+            {
+               "name": "Engineering and Technology",
+               "children": [
+                  {
+                     "name": "Mechanical Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Electrical Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Civil Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Chemical Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Aerospace Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Biomedical Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Nuclear Engineering",
+                     "value": 100
+                  },
+                  {
+                     "name": "Systems Engineering",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Medicine and Health",
+               "children": [
+                  {
+                     "name": "General Medicine",
+                     "value": 100
+                  },
+                  {
+                     "name": "Surgery",
+                     "value": 100
+                  },
+                  {
+                     "name": "Psychiatry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Pediatrics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Obstetrics and Gynecology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Nursing",
+                     "value": 100
+                  },
+                  {
+                     "name": "Public Health",
+                     "value": 100
+                  },
+                  {
+                     "name": "Alternative Medicine",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Agriculture",
+               "children": [
+                  {
+                     "name": "Agronomy",
+                     "value": 100
+                  },
+                  {
+                     "name": "Horticulture",
+                     "value": 100
+                  },
+                  {
+                     "name": "Forestry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Aquaculture",
+                     "value": 100
+                  },
+                  {
+                     "name": "Social Science",
+                     "value": 100
+                  },
+                  {
+                     "name": "Agriculture Economics",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Computer Technology",
+               "children": [
+                  {
+                     "name": "Information Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Network Security",
+                     "value": 100
+                  },
+                  {
+                     "name": "Database Management",
+                     "value": 100
+                  },
+                  {
+                     "name": "Cloud Computing",
+                     "value": 100
+                  },
+                  {
+                     "name": "Software Development",
+                     "value": 100
+                  },
+                  {
+                     "name": "Web Development",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Environmental Science & Renewable Energy",
+               "children": [
+                  {
+                     "name": "Renewable Energy",
+                     "value": 100
+                  },
+                  {
+                     "name": "Environmental Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Waste Management",
+                     "value": 100
+                  },
+                  {
+                     "name": "Water Resources",
+                     "value": 100
+                  },
+                  {
+                     "name": "Air Quality",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Military Science",
+               "children": [
+                  {
+                     "name": "Strategy and Tactics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Defense Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Military Intelligence",
+                     "value": 100
+                  },
+                  {
+                     "name": "Cyber Warfare",
+                     "value": 100
+                  },
+                  {
+                     "name": "Military Logistics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Military History",
+                     "value": 100
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Arts & Humanities",
+         "children": [
+            {
+               "name": "Literature",
+               "children": [
+                  {
+                     "name": "Fiction",
+                     "value": 100
+                  },
+                  {
+                     "name": "Poetry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Drama",
+                     "value": 100
+                  },
+                  {
+                     "name": "Non-Fiction",
+                     "value": 100
+                  },
+                  {
+                     "name": "Literary Criticism",
+                     "value": 100
+                  },
+                  {
+                     "name": "Comparative Literature",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Philosophy",
+               "children": [
+                  {
+                     "name": "Metaphysics",
+                     "value": 600
+                  },
+                  {
+                     "name": "Epistemology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Ontology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Ethics",
+                     "value": 300
+                  },
+                  {
+                     "name": "Aesthetics",
+                     "value": 100
+                  },
+                  {
+                     "name": "Philosophy of Science",
+                     "value": 100
+                  },
+                  {
+                     "name": "Political Philosophy",
+                     "value": 400
+                  }
+               ]
+            },
+            {
+               "name": "Religion",
+               "children": [
+                  {
+                     "name": "Theology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Comparative Religion",
+                     "value": 400
+                  },
+                  {
+                     "name": "Religious Studies",
+                     "value": 1200
+                  },
+                  {
+                     "name": "Mythology",
+                     "value": 300
+                  }
+               ]
+            },
+            {
+               "name": "Performing Arts",
+               "children": [
+                  {
+                     "name": "Music",
+                     "value": 100
+                  },
+                  {
+                     "name": "Theatre",
+                     "value": 100
+                  },
+                  {
+                     "name": "Dance",
+                     "value": 100
+                  },
+                  {
+                     "name": "Film Studies",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Visual Arts",
+               "children": [
+                  {
+                     "name": "Painting",
+                     "value": 100
+                  },
+                  {
+                     "name": "Sculture",
+                     "value": 100
+                  },
+                  {
+                     "name": "Photography",
+                     "value": 100
+                  },
+                  {
+                     "name": "Graphic Design",
+                     "value": 100
+                  },
+                  {
+                     "name": "Art History",
+                     "value": 100
+                  },
+                  {
+                     "name": "Architecture",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Languages",
+               "children": [
+                  {
+                     "name": "Etymology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Spanish",
+                     "value": 2000
+                  },
+                  {
+                     "name": "German",
+                     "value": 100
+                  },
+                  {
+                     "name": "French",
+                     "value": 100
+                  },
+                  {
+                     "name": "Mandarin",
+                     "value": 100
+                  },
+                  {
+                     "name": "Japanese",
+                     "value": 100
+                  },
+                  {
+                     "name": "Russian",
+                     "value": 100
+                  },
+                  {
+                     "name": "Portuguese",
+                     "value": 100
+                  },
+                  {
+                     "name": "Arabic",
+                     "value": 100
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Vocational Education & Training",
+         "children": [
+            {
+               "name": "Technical Training",
+               "children": [
+                  {
+                     "name": "Information Technology",
+                     "value": 600
+                  },
+                  {
+                     "name": "Automotive Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Electical Engineering Technology",
+                     "value": 200
+                  },
+                  {
+                     "name": "Industrial Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Aviation Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Marine Technology",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Skilled Trades",
+               "children": [
+                  {
+                     "name": "Carpentry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Plumbing",
+                     "value": 200
+                  },
+                  {
+                     "name": "Welding",
+                     "value": 100
+                  },
+                  {
+                     "name": "Masonry",
+                     "value": 100
+                  },
+                  {
+                     "name": "Electrical Trades",
+                     "value": 200
+                  },
+                  {
+                     "name": "HVAC",
+                     "value": 100
+                  },
+                  {
+                     "name": "Machining and Metal Working",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Health Careers",
+               "children": [
+                  {
+                     "name": "Medical Assisting",
+                     "value": 100
+                  },
+                  {
+                     "name": "Dental Assisting",
+                     "value": 100
+                  },
+                  {
+                     "name": "Medical Coding and Billing",
+                     "value": 100
+                  },
+                  {
+                     "name": "Surgical Technology",
+                     "value": 100
+                  },
+                  {
+                     "name": "Paramedical Services",
+                     "value": 100
+                  },
+                  {
+                     "name": "Veterinary Technician",
+                     "value": 100
+                  }
+               ]
+            },
+            {
+               "name": "Public Service",
+               "children": [
+                  {
+                     "name": "Firefighting",
+                     "value": 100
+                  },
+                  {
+                     "name": "Law Enforcement",
+                     "value": 100
+                  },
+                  {
+                     "name": "Emergency Medical Services",
+                     "value": 200
+                  },
+                  {
+                     "name": "Paralegal Studies",
+                     "value": 100
+                  },
+                  {
+                     "name": "Public Administration",
+                     "value": 400
+                  }
+               ]
+            },
+            {
+               "name": "Culinary Arts",
+               "children": [
+                  {
+                     "name": "Culinary Management",
+                     "value": 100
+                  },
+                  {
+                     "name": "Pastry and Banking",
+                     "value": 100
+                  },
+                  {
+                     "name": "Food Service Operations",
+                     "value": 100
+                  },
+                  {
+                     "name": "Hospitality Management",
+                     "value": 200
+                  }
+               ]
+            },
+            {
+               "name": "Creative & Performing Arts",
+               "children": [
+                  {
+                     "name": "Graphic Design",
+                     "value": 700
+                  },
+                  {
+                     "name": "Fashion Design",
+                     "value": 100
+                  },
+                  {
+                     "name": "Interior Design",
+                     "value": 400
+                  },
+                  {
+                     "name": "Music Production",
+                     "value": 300
+                  },
+                  {
+                     "name": "Film & Video Production",
+                     "value": 900
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

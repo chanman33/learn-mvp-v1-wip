@@ -8,6 +8,7 @@ import { Button, Grid } from '@mui/material';
 import ContentGrid from '../../components/ContentGrid';
 import PrimarySearchAppBar from '../../components/AppBar';
 import PropTypes from 'prop-types';
+import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import PodcastsCollapsibleTable from '../../components/PodcastsCollapsibleTable';
 
@@ -25,7 +26,7 @@ const Portfolio = () => {
 
     useEffect(() => {
         // Fetch the JSON data from your file or API
-        fetch('/data/data.json') // Replace with the correct path
+        fetch('/data/data_mini.json') // Replace with the correct path - data.json renders super super slow...
             .then((response) => response.json())
             .then((responseData) => {
                 setJsonData(responseData); // from outer: jsonData = responseData;
@@ -41,71 +42,86 @@ const Portfolio = () => {
         <main>
             <PrimarySearchAppBar></PrimarySearchAppBar>
 
-            <Grid container spacing={2} className='profileGrid' >
+            <Grid container spacing={2} sx={{ p: 2 }} className='portfolioGrid' >
                 <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={8} className='bioContainer' sx={{ ...commonStyles, borderRadius: 1 }} >
-                    <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
-                        <Image
-                            className="userProfilePicture"
-                            src="/images/profile.jpg"
-                            height={144}
-                            width={144}
-                            sx={{ mr: 2 }}
-                        />
-                        <span sx={{ display: 'flex', justifyContent: 'center' }}>
-                            Chandler J. Ward
-                            <br />
-                            Interested in Tech and Investing
-                            <br />
-                            Salt Lake City Metropolitan Area
-                            <br />
-                            Followers: 2.1K
-                        </span>
-
-                    </Box>
-                    <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start' }} >
-                        <span>
+                <Grid item xs={12} md={6} sx={{ ...commonStyles, borderRadius: 1 }} >
+                    <Stack sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', border: 1, borderColor: 'grey.300', borderRadius: 2, bgcolor: 'background.paper', p: 2 }}>
                             <Image
-                                src="/images/brigham_young_university_logo.jpg"
-                                height={48}
-                                width={48}
+                                className="userProfilePicture"
+                                src="/images/profile.jpg"
+                                height={144}
+                                width={144}
+                                sx={{
+                                    maxWidth: '100%', // Limit image width to not exceed its container
+                                    height: 'auto', // Ensures the height is scaled automatically
+                                    objectFit: 'contain' // Ensures image is scaled appropriately
+                                }}
                             />
-                            Brigham Young University
-                            <br />
-                            Bachelor of Science, Finance
-                        </span>
-                        <span>
-                            <Image
-                                src="/images/bingham_high_school_logo.jpg"
-                                height={48}
-                                width={48}
-                            />
-                            Bingham High School
-                            <br />
-                            High School Diploma
-                        </span>
-                        <span>
-                            Top Strengths & Interests:
-                            <li>
-                                Entrepreneurship
-                            </li>
-                            <li>
-                                Investing
-                            </li>
-                            <li>
-                                U.S. Politics
-                            </li>
-                        </span>
+                            <Box sx={{ display: 'flex', m: 1 }}>
+                                Chandler J. Ward🧑‍🎓
+                                <br />
+                                Interests: Tech and Investing🔍
+                                <br />
+                                Salt Lake City Metropolitan Area🌍
+                                <br />
+                                Followers: 2.1K✨
+                                <br />
+                                Rank: 1,453🏅
+                                <br />
+                                Learn Streak: 37 days!🔥
+                            </Box>
+                        </Box>
 
-                    </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', border: 1, borderColor: 'grey.300', borderRadius: 2, bgcolor: 'background.paper', p: 2 }} >
+                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 }}>
+                                <Image
+                                    src="/images/brigham_young_university_logo.jpg"
+                                    height={48}
+                                    width={48}
+                                    sx={{
+                                    maxWidth: '100%', // Limit image width to not exceed its container
+                                    height: 'auto', // Ensures the height is scaled automatically
+                                    objectFit: 'contain' // Ensures image is scaled appropriately
+                                }}
+                                />
+                                <Box sx={{ display: 'flex', m: 1 }}>
+                                    Brigham Young University
+                                    <br />
+                                    Bachelor of Science, Finance
+                                </Box>
+
+                            </Box>
+                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 }}>
+                                <Image
+                                    src="/images/bingham_high_school_logo.jpg"
+                                    height={48}
+                                    width={48}
+                                    sx={{
+                                    maxWidth: '100%', // Limit image width to not exceed its container
+                                    height: 'auto', // Ensures the height is scaled automatically
+                                    objectFit: 'contain' // Ensures image is scaled appropriately
+                                }}
+                                />
+                                <Box sx={{ display: 'flex', m: 1 }}>
+                                    Bingham High School
+                                    <br />
+                                    High School Diploma
+                                </Box>
+                            </Box>
+
+                        </Box>
+                    </Stack>
+
 
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
 
-                <Grid xs={8} className='portfolioGrid'>
-                    <h1>Portfolio</h1>
-                    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Grid item xs={12} md={6} >
+                    <h1>Portfolio🗂️</h1>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', border: 1, borderColor: 'grey.300', borderRadius: 2, p: 2 }} >
                         {/* if (jsonData has stuff) then render SunburstChart*/}
                         {jsonData && (
                             <SunburstChart data={jsonData} />
@@ -116,54 +132,66 @@ const Portfolio = () => {
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={8} className='license-certsGrid'>
-                    <h2>Licenses & Certifications</h2>
-                    {/* <CollapsibleTable></CollapsibleTable> */}
-                </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={8} className='license-certsGrid'>
-                    <h2>Research & Publications</h2>
-                    {/* <CollapsibleTable></CollapsibleTable> */}
 
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h2>Licenses & Certifications🪪</h2>
+                    {/* <CollapsibleTable></CollapsibleTable> */}
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={8} className='license-certsGrid'>
-                    <h2>Books</h2>
+                <Grid xs={2}></Grid> {/* buffer */}
+
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h2>Research & Publications📝</h2>
                     {/* <CollapsibleTable></CollapsibleTable> */}
 
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
 
-                <Grid xs={8} className='license-certsGrid'>
-                    <h2>Podcasts</h2>
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h2>Books📚</h2>
+                    {/* <CollapsibleTable></CollapsibleTable> */}
+
+                </Grid>
+                <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
+
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h2>Podcasts🎙️</h2>
                     <PodcastsCollapsibleTable></PodcastsCollapsibleTable>
 
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
 
-                <Grid xs={8} className='license-certsGrid'>
-                    <h2>Blogs & Articles</h2>
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h2>Blogs & Articles📰</h2>
                     {/* <CollapsibleTable></CollapsibleTable> */}
 
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
 
-                <Grid xs={8} className='license-certsGrid'>
-                    <h2>AI Micro Lessons</h2>
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h2>AI & GPT Lessons🤖</h2>
+                    <br></br>
                 </Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
+
                 <Grid xs={8}>
                     <Link href="/"> <Button>Return to home</Button></Link>
                 </Grid> {/* buffer */}
 
             </Grid>
-        </main >
+        </main>
 
 
     )
