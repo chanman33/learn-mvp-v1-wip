@@ -31,25 +31,13 @@ header {
 }
 
 /* CSS apply to Portfolio Page */
-.profileGrid {
-  /* background-color: #F4F2EE; */
-  padding-top: 20px;
-  
-}
-.bioContainer{
-  /* background-color: white; */
-  border-radius: 1;
 
-}
 .userProfilePicture {
   border-radius: 50%;
-  /* padding: 10px; */
 }
-.portfolioGrid {
-  background-color: white;
-}
-
-.license-certsGrid{
-  /* background-color: white; */
+.schoolLogo {
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
 }
 

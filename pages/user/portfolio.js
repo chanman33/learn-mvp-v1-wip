@@ -1,25 +1,18 @@
-// about.js
+// portfolio.js
 import React, { useState, useEffect } from 'react';
+import Layout from '@/app/layout';
 import Link from 'next/link';
 import Image from 'next/image';
-import Layout from '@/app/layout'; //imports CSS and chains to globals.css I think...
 import SunburstChart from '../../components/SunburstChart';
 import { Button, Grid } from '@mui/material';
-import ContentGrid from '../../components/ContentGrid';
-import PrimarySearchAppBar from '../../components/AppBar';
-import PropTypes from 'prop-types';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
+import PrimarySearchAppBar from '../../components/AppBar';
 import PodcastsCollapsibleTable from '../../components/PodcastsCollapsibleTable';
 
 
 
-// Style definition for Grid/Box borders
-const commonStyles = {
-    bgcolor: 'background.paper',
-    borderColor: 'text.primary',
 
-};
 
 const Portfolio = () => {
     const [jsonData, setJsonData] = useState(null);
@@ -42,9 +35,9 @@ const Portfolio = () => {
         <main>
             <PrimarySearchAppBar></PrimarySearchAppBar>
 
-            <Grid container spacing={2} sx={{ p: 2 }} className='portfolioGrid' >
+            <Grid container spacing={2} sx={{ p: 2 }} >
                 <Grid xs={2}></Grid> {/* buffer */}
-                <Grid item xs={12} md={6} sx={{ ...commonStyles, borderRadius: 1 }} >
+                <Grid item xs={12} md={6} >
                     <Stack sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', border: 1, borderColor: 'grey.300', borderRadius: 2, bgcolor: 'background.paper', p: 2 }}>
                             <Image
@@ -73,17 +66,19 @@ const Portfolio = () => {
                             </Box>
                         </Box>
 
-                        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', border: 1, borderColor: 'grey.300', borderRadius: 2, bgcolor: 'background.paper', p: 2 }} >
-                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 }}>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', border: 1, borderColor: 'grey.300', borderRadius: 2, bgcolor: 'background.paper', p: 2 }} >
+                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 , alignItems: 'center'}}>
                                 <Image
                                     src="/images/brigham_young_university_logo.jpg"
                                     height={48}
                                     width={48}
+                                    className="schoolLogo"
+
                                     sx={{
-                                    maxWidth: '100%', // Limit image width to not exceed its container
-                                    height: 'auto', // Ensures the height is scaled automatically
-                                    objectFit: 'contain' // Ensures image is scaled appropriately
-                                }}
+                                        maxWidth: '100%', // Limit image width to not exceed its container
+                                        height: 'auto', // Ensures the height is scaled automatically
+                                        objectFit: 'contain' // Ensures image is scaled appropriately
+                                    }}
                                 />
                                 <Box sx={{ display: 'flex', m: 1 }}>
                                     Brigham Young University
@@ -92,16 +87,17 @@ const Portfolio = () => {
                                 </Box>
 
                             </Box>
-                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 }}>
+                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 , alignItems: 'center'}}>
                                 <Image
                                     src="/images/bingham_high_school_logo.jpg"
                                     height={48}
                                     width={48}
+                                    className="schoolLogo"
                                     sx={{
-                                    maxWidth: '100%', // Limit image width to not exceed its container
-                                    height: 'auto', // Ensures the height is scaled automatically
-                                    objectFit: 'contain' // Ensures image is scaled appropriately
-                                }}
+                                        maxWidth: '100%', // Limit image width to not exceed its container
+                                        height: 'auto', // Ensures the height is scaled automatically
+                                        objectFit: 'contain' // Ensures image is scaled appropriately
+                                    }}
                                 />
                                 <Box sx={{ display: 'flex', m: 1 }}>
                                     Bingham High School
