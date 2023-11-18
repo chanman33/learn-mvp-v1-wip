@@ -32,8 +32,8 @@ const Portfolio = () => {
 
 
     return (
-        <main>
-            <PrimarySearchAppBar></PrimarySearchAppBar>
+        <>
+            <PrimarySearchAppBar />
 
             <Grid container spacing={2} sx={{ p: 2 }} >
                 <Grid xs={2}></Grid> {/* buffer */}
@@ -67,7 +67,7 @@ const Portfolio = () => {
                         </Box>
 
                         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', border: 1, borderColor: 'grey.300', borderRadius: 2, bgcolor: 'background.paper', p: 2 }} >
-                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 , alignItems: 'center'}}>
+                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1, alignItems: 'center' }}>
                                 <Image
                                     src="/images/brigham_young_university_logo.jpg"
                                     height={48}
@@ -87,7 +87,7 @@ const Portfolio = () => {
                                 </Box>
 
                             </Box>
-                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1 , alignItems: 'center'}}>
+                            <Box sx={{ display: 'flex', flexDirection: 'row', m: 1, alignItems: 'center' }}>
                                 <Image
                                     src="/images/bingham_high_school_logo.jpg"
                                     height={48}
@@ -116,7 +116,7 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid item xs={12} md={6} >
-                    <h1>Portfolio🗂️</h1>
+                    <h2>Portfolio 🗂️</h2>
                     <Box sx={{ display: 'flex', justifyContent: 'center', border: 1, borderColor: 'grey.300', borderRadius: 2, p: 2 }} >
                         {/* if (jsonData has stuff) then render SunburstChart*/}
                         {jsonData && (
@@ -131,7 +131,7 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid item xs={12} md={6} className='license-certsGrid'>
-                    <h2>Licenses & Certifications🪪</h2>
+                    <h3>Licenses & Certifications 🪪</h3>
                     {/* <CollapsibleTable></CollapsibleTable> */}
                 </Grid>
                 <Grid xs={2}></Grid> {/* buffer */}
@@ -139,16 +139,7 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid item xs={12} md={6} className='license-certsGrid'>
-                    <h2>Research & Publications📝</h2>
-                    {/* <CollapsibleTable></CollapsibleTable> */}
-
-                </Grid>
-                <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={2}></Grid> {/* buffer */}
-                <Grid xs={2}></Grid> {/* buffer */}
-
-                <Grid item xs={12} md={6} className='license-certsGrid'>
-                    <h2>Books📚</h2>
+                    <h3>Research & Publications 📝</h3>
                     {/* <CollapsibleTable></CollapsibleTable> */}
 
                 </Grid>
@@ -157,7 +148,16 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid item xs={12} md={6} className='license-certsGrid'>
-                    <h2>Podcasts🎙️</h2>
+                    <h3>Books 📚</h3>
+                    {/* <CollapsibleTable></CollapsibleTable> */}
+
+                </Grid>
+                <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
+                <Grid xs={2}></Grid> {/* buffer */}
+
+                <Grid item xs={12} md={6} className='license-certsGrid'>
+                    <h3>Podcasts 🎙️</h3>
                     <PodcastsCollapsibleTable></PodcastsCollapsibleTable>
 
                 </Grid>
@@ -166,7 +166,7 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid item xs={12} md={6} className='license-certsGrid'>
-                    <h2>Blogs & Articles📰</h2>
+                    <h3>Blogs & Articles 📰</h3>
                     {/* <CollapsibleTable></CollapsibleTable> */}
 
                 </Grid>
@@ -175,8 +175,7 @@ const Portfolio = () => {
                 <Grid xs={2}></Grid> {/* buffer */}
 
                 <Grid item xs={12} md={6} className='license-certsGrid'>
-                    <h2>AI & GPT Lessons🤖</h2>
-                    <br></br>
+                    <h3>AI & GPT Lessons 🤖</h3>
                 </Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
                 <Grid xs={2}></Grid> {/* buffer */}
@@ -187,9 +186,7 @@ const Portfolio = () => {
                 </Grid> {/* buffer */}
 
             </Grid>
-        </main>
-
-
+        </>
     )
 }
 

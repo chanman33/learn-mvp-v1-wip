@@ -12,30 +12,69 @@ import { Avatar } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
+
+//TODO: Implement API to fetch post data, use getServerSideProps or StaticProps based on postID
+//See [postID].js for details
+//TODO: merge data below with posts.json placeholder data
+
 const data = [
   {
+    id: "1",
     src: '',
     srcIMG: 'https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc',
     publisher: 'The Dog Owner',
     title: 'About Our Dog',
     description: "He's a good boy",
     tokens: "400" + " Tokens",
+    comments: [
+      {
+          id: "1",
+          text: "Great post!"
+      },
+      {
+          id: "2",
+          text: "Really insightful."
+      }
+  ]
   },
   {
+    id: "2",
     src: '',
     srcIMG: 'https://natusan.co.uk/cdn/shop/articles/natusan-blog-how-cat-years-work-header_600x600_crop_center.jpg?v=1674474680',
     publisher: 'The Cat Owner',
     title: 'About Our Cat',
     description: "He's a bad boy",
     tokens: "200" + " Tokens",
+    comments: [
+      {
+          id: "1",
+          text: "Great post!"
+      },
+      {
+          id: "2",
+          text: "Really insightful."
+      }
+    ]
   },
   {
+    id: "3",
+
     src: '',
     srcIMG: 'https://images.squarespace-cdn.com/content/v1/5486159de4b074841b303621/1625098587656-RAWMEEYLSLFFNK7J2F5O/WEBimage1.jpg',
     publisher: 'The Turtle Owner',
     title: 'About Our Turtle',
     description: "He's a chill turtle",
     tokens: "300" + " Tokens",
+    comments: [
+      {
+          id: "1",
+          text: "Great post!"
+      },
+      {
+          id: "2",
+          text: "Really insightful."
+      }
+    ]
   }
 ];
 
@@ -43,7 +82,7 @@ function Media(props) {
   const { loading = false } = props;
 
   return (
-    <main>
+    <>
       {(loading ? Array.from(new Array(3)) : data).map((item, index) => (
         <Card key={index} sx={{ maxWidth: 526, m: 2 }}>
 
@@ -118,7 +157,7 @@ function Media(props) {
         </Card>
       ))
       }
-    </main>
+    </>
 
   );
 }
