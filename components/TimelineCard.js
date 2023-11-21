@@ -8,7 +8,7 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import { Avatar } from '@mui/material';
+import { Avatar, Link } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
@@ -20,59 +20,59 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 const data = [
   {
     id: "1",
-    src: '',
-    srcIMG: 'https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc',
-    publisher: 'The Dog Owner',
-    title: 'About Our Dog',
-    description: "He's a good boy",
-    tokens: "400" + " Tokens",
+    src: 'https://www.investopedia.com/terms/c/corporategovernance.asp',
+    srcIMG: 'https://www.investopedia.com/thmb/1hcPHOmM02RQ7fLV92yPwf3yLYU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Term-Definitions_corporategovernance-dba10e3df300439597427b2518b96b93.png',
+    publisher: 'Investopedia',
+    title: 'Corporate Governance: Definition, Principles, Models, and Examples',
+    description: "Good corporate governance can benefit investors and other stakeholders, while bad governance can lead to scandal and ruin...",
+    tokens: "2,300" + " Tokens",
     comments: [
       {
-          id: "1",
-          text: "Great post!"
+        id: "1",
+        text: "Great post!"
       },
       {
-          id: "2",
-          text: "Really insightful."
+        id: "2",
+        text: "Really insightful."
       }
-  ]
+    ]
   },
   {
     id: "2",
-    src: '',
-    srcIMG: 'https://natusan.co.uk/cdn/shop/articles/natusan-blog-how-cat-years-work-header_600x600_crop_center.jpg?v=1674474680',
-    publisher: 'The Cat Owner',
-    title: 'About Our Cat',
-    description: "He's a bad boy",
-    tokens: "200" + " Tokens",
+    src: 'https://en.wikipedia.org/wiki/Lidar',
+    srcIMG: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/3D_Sick_Lidar.jpg/330px-3D_Sick_Lidar.jpg',
+    publisher: 'Wikipeida',
+    title: 'Lidar',
+    description: "Lidar (also LIDAR, LiDAR or LADAR, an acronym of 'light detection and ranging' or 'laser imaging, detection, and ranging') is a method for determining ranges by targeting an object or a surface with a laser and measuring...",
+    tokens: "1800" + " Tokens",
     comments: [
       {
-          id: "1",
-          text: "Great post!"
+        id: "1",
+        text: "Great post!"
       },
       {
-          id: "2",
-          text: "Really insightful."
+        id: "2",
+        text: "Really insightful."
       }
     ]
   },
   {
     id: "3",
 
-    src: '',
-    srcIMG: 'https://images.squarespace-cdn.com/content/v1/5486159de4b074841b303621/1625098587656-RAWMEEYLSLFFNK7J2F5O/WEBimage1.jpg',
-    publisher: 'The Turtle Owner',
-    title: 'About Our Turtle',
-    description: "He's a chill turtle",
-    tokens: "300" + " Tokens",
+    src: 'https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass/',
+    srcIMG: 'https://img-c.udemycdn.com/course/750x422/2769460_e60c.jpg',
+    publisher: 'Udemy',
+    title: 'Python for Machine Learning & Data Science Masterclass',
+    description: "Learn about Data Science and Machine Learning with Python! Including Numpy, Pandas, Matplotlib, Scikit-Learn and more!...",
+    tokens: "42,000" + " Tokens",
     comments: [
       {
-          id: "1",
-          text: "Great post!"
+        id: "1",
+        text: "Great post!"
       },
       {
-          id: "2",
-          text: "Really insightful."
+        id: "2",
+        text: "Really insightful."
       }
     ]
   }
@@ -139,18 +139,20 @@ function Media(props) {
                 <Skeleton animation="wave" height={10} width="80%" />
               </React.Fragment>
             ) : (
-              <div>
-                <Typography color="text.black" component="h2">
-                  {
-                    item.title
-                  }
-                </Typography>
-                <Typography variant="body2" color="text.secondary" component="p">
-                  {
-                    item.description
-                  }
-                </Typography>
-              </div>
+              <Link href= {item.src} className="no-style-link">
+                <div>
+                  <Typography color="text.black" component="h2">
+                    {
+                      item.title
+                    }
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" component="p">
+                    {
+                      item.description
+                    }
+                  </Typography>
+                </div>
+              </Link>
 
             )}
           </CardContent>

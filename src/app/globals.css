@@ -9,10 +9,32 @@ body {
   color: inherit;
 }
 
+/* CSS Apply to Home Page */
+
+.circles-sidebar {
+  margin-top: 16px;
+}
+.sidebar-heading {
+  margin: 8px;
+}
+.profile-name-sidebar {
+  text-align: center; 
+  font-weight: bold;
+  margin: 0%;
+}
+.sponsor-image{
+  margin: 12px;
+}
+.sponsored-text{
+  margin: 0%;
+  color: grey;
+}
+
 /* CSS apply to Portfolio Page */
 
 .userProfilePicture {
   border-radius: 50%;
+  margin: 2px;
 }
 .schoolLogo {
   border-radius: 50%;
