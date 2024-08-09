@@ -1,3 +1,16 @@
+CW:
+
+WORK IN PROGRESS - SIDE PROJECT
+
+Learn is an ai-enabled LXP with a LinkedIn like social experience. 
+
+Learning portfolios / knowledge graphs are measured in tokens.
+
+
+
+------------------------------------------------------
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Includes D3 dependency:
